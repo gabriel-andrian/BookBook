@@ -1,3 +1,5 @@
 import { combineReducers } from 'redux';
 
-export default combineReducers({});
+import shelf from './shelf';
+
+export default combineReducers({ shelf });
