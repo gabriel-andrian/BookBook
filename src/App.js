@@ -1,5 +1,5 @@
 import React from 'react';
-import Routers from './routers';
+import MyBookshelves from '../src/pages/my-bookshelves';
 
 const App = () => {
   return (
@@ -8,6 +8,8 @@ const App = () => {
         <Routers />
         <div />
       </header>
+
+      <MyBookshelves />
     </div>
   );
 };
