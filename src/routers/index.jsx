@@ -100,7 +100,9 @@ const Routers = () => {
           </Main>
         </Container>
       </Route>
-      <Route exact path="/" />
+      <Route exact path="/">
+        {history.push('/login')}
+      </Route>
 
       {/* <Route path="/">404 - PAGE NOT FOUND</Route> */}
     </Switch>
