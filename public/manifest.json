@@ -1,6 +1,6 @@
 {
-  "short_name": "BookBook",
-  "name": "BookBook | Social network for book lovers",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
